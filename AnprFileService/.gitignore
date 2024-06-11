@@ -15,6 +15,9 @@ obj/
 *.dll
 *.exe
 
+*.db-wal
+*.db-shm
+
 WatchedDirectory/*
 
 # NuGet packages
