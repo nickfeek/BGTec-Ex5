@@ -194,7 +194,7 @@ namespace AnprFileService
                     continue;
                 }
 
-                FileRecord fileRecord = CreateFileRecord(fields, filePath);
+                FileRecord fileRecord = CreateFileRecord(fields, relativePath);
 
                 // Validate the file record
                 if (!ValidateFileRecord(fileRecord))
