@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnprFileService", "AnprFile
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnprFileService.Tests", "AnprFileService.Tests\AnprFileService.Tests.csproj", "{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WatchedDirectory", "WatchedDirectory", "{4DEE9C15-D61D-47D7-AA67-71D750FC4DAC}"
-	ProjectSection(SolutionItems) = preProject
-		WatchedDirectory\.gitkeep = WatchedDirectory\.gitkeep
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
