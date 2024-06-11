@@ -1,4 +1,4 @@
-### Ex1 Palindrome Test (Class Library) ###
+### Ex5 ANPR Camera Image File Service (Service Worker App ###
 
 **Assumptions.**
 
