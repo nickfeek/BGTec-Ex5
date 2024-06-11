@@ -1,4 +1,4 @@
-### Ex5 ANPR Camera Image File Service (Service Worker App ###
+### Ex5 ANPR Camera Image File Service (Service Worker App) ###
 
 **Assumptions.**
 
