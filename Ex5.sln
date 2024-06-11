@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnprFileService", "AnprFileService\AnprFileService.csproj", "{8A79387B-FC0E-44D0-A53B-535FE78DE582}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnprFileService.Tests", "AnprFileService.Tests\AnprFileService.Tests.csproj", "{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A79387B-FC0E-44D0-A53B-535FE78DE582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A79387B-FC0E-44D0-A53B-535FE78DE582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A79387B-FC0E-44D0-A53B-535FE78DE582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A79387B-FC0E-44D0-A53B-535FE78DE582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD63F76-1AA5-4E3B-93E4-F1B417D2101D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21060EED-E197-430C-BF4F-C4DE6EEEB9EC}
+	EndGlobalSection
+EndGlobal

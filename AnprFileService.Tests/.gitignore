@@ -1,0 +1,45 @@
+# Ignore bin and obj directories
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# Compiled files
+*.dll
+*.exe
+
+# NuGet packages
+*.nuget.cache
+packages/
+
+# Ignore build output
+*.log
+*.dll
+*.pdb
+
+# Ignore Visual Studio generated files
+*.exe
+*.pdb
+*.dll
+*.deploy
+*.xml
+*.csproj.user
+*.bak
+
+# Ignore ReSharper files
+_ReSharper*/
+*.ReSharper*
+
+# Ignore Rider files
+.idea/
+
+# Ignore Mac and Windows files
+.DS_Store
+Thumbs.db
