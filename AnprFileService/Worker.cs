@@ -29,6 +29,10 @@ namespace AnprFileService
             // Ensure the database and table are created
             EnsureDatabaseCreated();
 
+            // Ensures the default watcher directory created
+            EnsureWatcherDirecoryCreated();
+
+
             // Initialize the FileSystemWatcher
             InitializeFileSystemWatcher();
         }
@@ -50,6 +54,28 @@ namespace AnprFileService
                 }
             }
         }
+        
+        // Ensures the default watcher directory created
+        private void EnsureWatcherDirecoryCreated()
+        {
+
+            // Directory path
+            string path = _watchedDirectory;
+
+            // Check if the directory exists
+            if (!Directory.Exists(path))
+            {
+                // Create the directory
+                Directory.CreateDirectory(path);
+                _logger.LogInformation($"Directory created at: {path}");
+            }
+            else
+            {
+                _logger.LogInformation($"Directory already exists at: {path}");
+            }
+        }
+
+
 
         // Initializes the FileSystemWatcher
         private void InitializeFileSystemWatcher()
