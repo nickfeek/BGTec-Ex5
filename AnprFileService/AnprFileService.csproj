@@ -6,16 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-AnprFileService-34b9cfc9-1de9-4b65-b413-3b23f18a2579</UserSecretsId>
   </PropertyGroup>
+	<ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="WatchedDirecory\**" />
-    <Content Remove="WatchedDirecory\**" />
-    <EmbeddedResource Remove="WatchedDirecory\**" />
-    <None Remove="WatchedDirecory\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.6" />
+	<PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6">
